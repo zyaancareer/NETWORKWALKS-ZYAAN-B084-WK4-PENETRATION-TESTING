@@ -37,13 +37,13 @@ The table below lists each tool used in this report and its purpose.
 # 4.	Activities Performed
 # 4.1	Footprinting & Reconnaissance
 
-I performed reconnaissance against the networks.com domain using six Linux tools: WHOIS, Nslookup, Curl, Wafw00f and DNSRecon. Each tool was used to collect a different type of information about the target.
+I performed reconnaissance against the company domain using six Linux tools: WHOIS, Nslookup, Curl, Wafw00f and DNSRecon. Each tool was used to collect a different type of information about the target.
 
 I first used WHOIS to obtain the publicly available domain registration information and the name of its servers.  The results provided information about the domain registration and hosting infrastructure.
 
-I then used WhatWeb to determine which technologies the website was using. WordPress 7.1.4 and WordPress Download Manager 3.3.76 were found in the results, along with further data exposed by the website.
+I then used WhatWeb to determine which technologies the website was using.  LiteSpeed, along with further data exposed by the website.
 
-I was able to connect the domain name to its IP address using Nslookup. 192.232.216.135 was found in the given result.
+I was able to connect the domain name to its IP address using Nslookup.  was found in the given result.
 
 I examined the HTTP response headers using Curl and the -I iption. This revealed the WordPress REST API endpoint /wp-json/ and offered more details about the web application.
 
